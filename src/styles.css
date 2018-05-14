@@ -1,2 +1,38 @@
 /* You can add global styles to this file, and also import other style files */
-@import "~@angular/material/prebuilt-themes/indigo-pink.css";
+@import '~@angular/material/prebuilt-themes/deeppurple-amber.css';
+
+@media screen and (max-width: 800px) {
+  .card {
+    margin: 20px;
+  }
+  .mat-expansion-panel{
+    margin: 20px;
+  }
+}
+
+@media screen and (min-width: 800px) {
+  .card {
+    width: 800px;
+    margin: 20px auto 20px auto ;
+  }
+  .mat-expansion-panel{
+    width: auto;
+    margin: 20px auto 20px auto ;
+  }
+}
+
+.content {
+  font-size: 2vh;
+}
+
+.title {
+  color: #003366;
+}
+
+.subtitle {
+  color: black
+}
+
+html {
+  background: linear-gradient(to right, #3a7bd5, #3a6073);
+}
