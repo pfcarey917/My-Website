@@ -1,6 +1,10 @@
 ul {
     margin:0;
     padding:0;
-    text-align: center;
     list-style:none;
+}
+
+li{
+  max-width:70ch;
+  margin:0 auto;
 }
