@@ -9,13 +9,15 @@ import { FormsModule } from '@angular/forms';
 import { AboutComponent } from './about/about.component';
 import { ResumeComponent } from './resume/resume.component';
 import { HomeComponent } from './home/home.component';
+import { GamesComponent } from './games/games.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     AboutComponent,
     ResumeComponent,
-    HomeComponent
+    HomeComponent,
+    GamesComponent
   ],
   imports: [
     BrowserModule,
